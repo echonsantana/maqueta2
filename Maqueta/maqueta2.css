@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
 
 .container{
@@ -20,8 +25,10 @@
     font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
-    
+    padding: 1rem;
 }
+
+
 
 .menu{
     border-radius: 4px;
@@ -59,29 +66,19 @@
     justify-content: flex-end;
 }
 
-.image{
-    opacity: .1;
-    position: absolute;
-    top: 57%;
-    left: 2%;
-    position: fixed;  
+
+main{
+    display:flex;
+    flex-grow: 1;
+    justify-content: space-between;
 }
 
-.lona h1{
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: auto;
-    padding: 150px;
-}
 
 .pie{
-    width: 99vw;
-    height: 6vW;
     background-color: rgba(185, 134, 110, 0.904);
     display: flex;
     justify-content: space-between;
+    padding: 1rem;
 }
 
 .aviso{
@@ -90,6 +87,12 @@
 
 .poli{
     margin-right: 25px;
+}
+
+.caja1{
+    background-color: black;
+    color: white;
+    width: 37rem;
 }
 
 
